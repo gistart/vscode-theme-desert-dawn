@@ -1,0 +1,22 @@
+{
+    "name": "theme-desert-dawn",
+    "displayName": "DesertDawn",
+    "description": "Desert Dawn is a lighter, warmer Desert theme, closer to original look in GVim",
+    "version": "0.0.1",
+    "publisher": "gistart",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "DesertDawn",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DesertDawn-color-theme.json"
+            }
+        ]
+    }
+}
