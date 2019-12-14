@@ -8,14 +8,16 @@
         "editor.lineHighlightBackground": "#333333",
         "editorIndentGuide.background": "#222222",
         "editorRuler.foreground": "#222222",
-        "editorGutter.addedBackground": "#4f4f4f",
-        "editorGutter.modifiedBackground": "#4f4f4f",
+        "editorGutter.addedBackground": "#006d0f",
+        "editorGutter.modifiedBackground": "#a76c00",
         "editorGutter.deletedBackground": "#ff0000",
         "editorHoverWidget.background": "#2f2f2f",
         "editorSuggestWidget.background": "#2f2f2f",
         "editorSuggestWidget.highlightForeground": "#e95420",
         "editorWarning.foreground": "#fd2121",
         "editorOverviewRuler.warningForeground": "#ff0000",
+        "diffEditor.insertedTextBackground": "#194119",
+        "editor.selectionHighlightBackground": "#e9542060",
 
         "activityBar.activeBorder": "#e95420",
         "activityBarBadge.background": "#e95420",
@@ -53,10 +55,11 @@
 			"scope": [
 				"variable",
 				"string constant.other.placeholder",
-				"constant.other.color"
+				"constant.other.color",
+				"variable.parameter",
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#eeffff"
 			}
 		},
 		{
@@ -66,7 +69,7 @@
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#ff0000"
 			}
 		},
 		{
@@ -150,25 +153,10 @@
 			}
         },
 		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
-			"scope": [
-				"constant.numeric",
-				"constant.language",
-				"support.constant",
-				"constant.character",
-				"constant.escape",
-				"variable.parameter",
-				"keyword.other.unit",
-				"keyword.other"
-			],
-			"settings": {
-				"foreground": "#ffffff"
-			}
-		},
-		{
-			"name": "Special strings",
+			"name": "Regexp, Escape, String formatting",
 			"scope": [
 				"string.regexp",
+				"constant.character",
                 "constant.character.escape",
 			],
 			"settings": {
@@ -181,7 +169,20 @@
 				"string",
 				"constant.other.symbol",
 				"constant.other.key",
-				"entity.other.inherited-class",
+			],
+			"settings": {
+				"foreground": "#f29d99"
+			}
+		},
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"scope": [
+				"constant.language",
+				"constant.numeric",
+				"support.constant",
+				"constant.escape",
+				"keyword.other.unit",
+				"keyword.other"
 			],
 			"settings": {
 				"foreground": "#f29d99"
@@ -193,10 +194,11 @@
 				"entity.name",
 				"support.type",
 				"support.class",
-				"support.type.sys-types"
+				"support.type.sys-types",
+				"entity.other.inherited-class",
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#98fb97"
 			}
 		},
 		{
@@ -206,7 +208,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#eb97eb"
+				"foreground": "#C792EA"
 			}
 		},
 		{
