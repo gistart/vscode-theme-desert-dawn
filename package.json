@@ -2,7 +2,7 @@
     "name": "theme-desert-dawn",
     "displayName": "DesertDawn",
     "description": "Desert Dawn is a lighter, warmer Desert theme, closer to original look in GVim",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "gistart",
     "repository": "https://github.com/gistart/vscode-theme-desert-dawn",
     "icon": "desert.png",
