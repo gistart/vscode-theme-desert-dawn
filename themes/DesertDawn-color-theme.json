@@ -16,10 +16,14 @@
         "editorHoverWidget.background": "#2f2f2f",
         "editorSuggestWidget.background": "#2f2f2f",
         "editorSuggestWidget.highlightForeground": "#e95420",
-        "editorWarning.foreground": "#fd2121",
         "editorOverviewRuler.warningForeground": "#ff0000",
         "editor.selectionHighlightBackground": "#f7693675",
         "editorLineNumber.activeForeground": "#eeffff",
+
+        "editorHint.foreground": "#fd2121",
+        "editorInfo.foreground": "#fd2121",
+        "editorWarning.foreground": "#fd2121",
+        "editorError.foreground": "#fd2121",
 
         "diffEditor.insertedTextBackground": "#194119",
 
@@ -54,8 +58,7 @@
         "statusBar.noFolderBackground" : "#333333",
         "statusBar.debuggingBackground": "#333333",
 
-        "list.activeSelectionBackground": "#434343"
-
+        "list.activeSelectionBackground": "#434343",
 	},
 	"tokenColors": [
 		{
@@ -180,7 +183,7 @@
                 "constant.character.escape",
 			],
 			"settings": {
-				"foreground": "#fe4545"
+				"foreground": "#ff5370"
 			}
 		},
 		{
