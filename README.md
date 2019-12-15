@@ -6,7 +6,18 @@ Desert Dawn is a lighter, warmer Desert theme, closer to original look in GVim
 
 Font: Ubuntu Mono
 
-#### Python syntax
+### Python syntax
 
-![Python syntax](https://raw.githubusercontent.com/gistart/vscode-theme-desert-dawn/master/screenshots/python.png)
+![Python](https://raw.githubusercontent.com/gistart/vscode-theme-desert-dawn/master/screenshots/python.png)
 
+### Markdown syntax
+
+![MD](https://raw.githubusercontent.com/gistart/vscode-theme-desert-dawn/master/screenshots/md.png)
+
+### Go syntax
+
+![Go](https://raw.githubusercontent.com/gistart/vscode-theme-desert-dawn/master/screenshots/go.png)
+
+### Rust syntax
+
+![Rust](https://raw.githubusercontent.com/gistart/vscode-theme-desert-dawn/master/screenshots/rust.png)
