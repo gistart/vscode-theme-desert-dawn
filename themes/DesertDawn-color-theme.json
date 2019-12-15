@@ -2,7 +2,9 @@
 	"name": "DesertDawn",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#333333",
+        "focusBorder": "#565656",
+
+        "editor.background": "#333333",
         "editor.foreground": "#eeffff",
         "editor.selectionBackground": "#434343",
         "editor.lineHighlightBackground": "#333333",
@@ -16,16 +18,25 @@
         "editorSuggestWidget.highlightForeground": "#e95420",
         "editorWarning.foreground": "#fd2121",
         "editorOverviewRuler.warningForeground": "#ff0000",
+        "editor.selectionHighlightBackground": "#f7693675",
+        "editorLineNumber.activeForeground": "#eeffff",
+
         "diffEditor.insertedTextBackground": "#194119",
-        "editor.selectionHighlightBackground": "#e9542060",
 
         "activityBar.activeBorder": "#e95420",
-        "activityBarBadge.background": "#e95420",
         "activityBar.background": "#333333",
         "activityBar.activeBackground": "#434343",
+        "activityBar.border": "#232323",
+        "activityBarBadge.background": "#e95420",
 
         "tab.activeBorderTop": "#e95420",
+        "tab.activeModifiedBorder": "#e95420",
+        "tab.unfocusedActiveBorderTop":"#e95420",
+        "tab.inactiveModifiedBorder": "#94407f",
+        "tab.unfocusedInactiveModifiedBorder": "#94407f",
+        "tab.unfocusedActiveModifiedBorder": "#94407f",
 
+        "sideBar.border": "#232323",
         "sideBar.background": "#2f2f2f",
         "sideBarTitle.foreground": "#bbbbbb",
 
@@ -37,7 +48,10 @@
         "tree.indentGuidesStroke": "#3f3f3f",
 
         "statusBar.border": "#222222",
-        "statusBar.foreground": "#ccdddd"
+        "statusBar.foreground": "#ccdddd",
+
+        "list.activeSelectionBackground": "#434343"
+
 	},
 	"tokenColors": [
 		{
@@ -77,7 +91,7 @@
 			"scope": [
 				"keyword",
 				"storage.type",
-				"storage.modifier"
+                "storage.modifier"
 			],
 			"settings": {
 				"foreground": "#f2f997"
@@ -96,7 +110,7 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution"
+                "keyword.other.substitution"
 			],
 			"settings": {
 				"foreground": "#f2f997"
@@ -105,8 +119,10 @@
 		{
 			"name": "Language methods",
 			"scope": [
+                "variable.language",
 				"keyword.control",
-				"variable.language"
+				"keyword.other",
+				"keyword.other.unit"
 			],
 			"settings": {
 				"foreground": "#f2f997"
@@ -127,7 +143,7 @@
 			"scope": [
 				"meta.function-call",
 				"variable.function",
-				"keyword.other.special-method"
+                "keyword.other.special-method"
 			],
 			"settings": {
 				"foreground": "#98fbfc"
@@ -181,8 +197,6 @@
 				"constant.numeric",
 				"support.constant",
 				"constant.escape",
-				"keyword.other.unit",
-				"keyword.other"
 			],
 			"settings": {
 				"foreground": "#f29d99"
