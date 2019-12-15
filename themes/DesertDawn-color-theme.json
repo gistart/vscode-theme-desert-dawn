@@ -24,8 +24,8 @@
         "diffEditor.insertedTextBackground": "#194119",
 
         "activityBar.activeBorder": "#e95420",
+        "activityBar.activeFocusBorder": "#e95420",
         "activityBar.background": "#333333",
-        "activityBar.activeBackground": "#434343",
         "activityBar.border": "#232323",
         "activityBarBadge.background": "#e95420",
 
@@ -47,8 +47,12 @@
 
         "tree.indentGuidesStroke": "#3f3f3f",
 
-        "statusBar.border": "#222222",
         "statusBar.foreground": "#ccdddd",
+        "statusBarItem.hoverBackground": "#434343",
+        "statusBar.border": "#232323",
+        "statusBar.background" : "#333333",
+        "statusBar.noFolderBackground" : "#333333",
+        "statusBar.debuggingBackground": "#333333",
 
         "list.activeSelectionBackground": "#434343"
 
