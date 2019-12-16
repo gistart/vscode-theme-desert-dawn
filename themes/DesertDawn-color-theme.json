@@ -9,7 +9,7 @@
         "editor.foreground": "#eeffff",
         "editor.selectionBackground": "#434343",
         "editor.lineHighlightBackground": "#333333",
-        "editor.hoverHighlightBackground": "#94407f",
+        "editor.hoverHighlightBackground": "#94407f90",
         "editor.selectionHighlightBackground": "#94407f75",
         "editorIndentGuide.background": "#222222",
         "editorRuler.foreground": "#222222",
@@ -77,9 +77,10 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
-				"string constant.other.placeholder",
+                "variable.other",
+                "variable.parameter",
 				"constant.other.color",
-				"variable.parameter",
+				"support.other.variable",
 			],
 			"settings": {
 				"foreground": "#eeffff"
@@ -141,7 +142,10 @@
 			"name": "Function, Special Method",
 			"scope": [
 				"entity.name.function",
-				"support.function"
+                "support.function",
+                "entity.name.module.js",
+				"variable.import.parameter.js",
+				"variable.other.class.js"
 			],
 			"settings": {
 				"foreground": "#98fb97"
@@ -152,37 +156,24 @@
 			"scope": [
 				"meta.function-call",
 				"variable.function",
-                "keyword.other.special-method"
+                "variable.function.constructor",
+                "keyword.other.special-method",
+                "meta.class-method.js entity.name.function.js",
+                "source.js constant.other.object.key.js string.unquoted.label.js",
 			],
 			"settings": {
 				"foreground": "#98fbfc"
 			}
 		},
 		{
-			"name": "Block Level Variables",
-			"scope": [
-				"meta.block variable.other"
-			],
-			"settings": {
-				"foreground": "#f07178"
-			}
-		},
-		{
-			"name": "Other Variable, String Link",
-			"scope": [
-				"support.other.variable",
-				"string.other.link"
-			],
-			"settings": {
-				"foreground": "#f07178"
-			}
-        },
-		{
 			"name": "Regexp, Escape, String formatting",
 			"scope": [
 				"string.regexp",
+				"constant.escape",
 				"constant.character",
                 "constant.character.escape",
+				"string constant.other.placeholder",
+				"string.other.link"
 			],
 			"settings": {
 				"foreground": "#ff5370"
@@ -205,7 +196,6 @@
 				"constant.language",
 				"constant.numeric",
 				"support.constant",
-				"constant.escape",
 			],
 			"settings": {
 				"foreground": "#f29d99"
@@ -215,7 +205,6 @@
 			"name": "Class, Support",
 			"scope": [
 				"entity.name",
-				"support.type",
 				"support.class",
 				"support.type.sys-types",
 				"entity.other.inherited-class",
@@ -231,7 +220,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#d49ffc"
 			}
 		},
 		{
@@ -242,7 +231,7 @@
 				"*uri*"
 			],
 			"settings": {
-				"fontStyle": "underline"
+				"fontStyle": "underline",
 			}
         },
 
