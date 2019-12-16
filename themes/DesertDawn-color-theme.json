@@ -141,11 +141,11 @@
 		{
 			"name": "Function, Special Method",
 			"scope": [
-				"entity.name.function",
                 "support.function",
+				"entity.name.function",
                 "entity.name.module.js",
 				"variable.import.parameter.js",
-				"variable.other.class.js"
+				"variable.other.class.js",
 			],
 			"settings": {
 				"foreground": "#98fb97"
@@ -154,15 +154,14 @@
 		{
 			"name": "Function Call",
 			"scope": [
-				"meta.function-call",
+                "meta.function-call",
 				"variable.function",
                 "variable.function.constructor",
-                "keyword.other.special-method",
                 "meta.class-method.js entity.name.function.js",
                 "source.js constant.other.object.key.js string.unquoted.label.js",
 			],
 			"settings": {
-				"foreground": "#98fbfc"
+				"foreground": "#59fafd"
 			}
 		},
 		{
@@ -195,7 +194,6 @@
 			"scope": [
 				"constant.language",
 				"constant.numeric",
-				"support.constant",
 			],
 			"settings": {
 				"foreground": "#f29d99"
@@ -217,7 +215,8 @@
 			"name": "Entity Types, Attributes",
 			"scope": [
 				"support.type",
-				"entity.other.attribute-name"
+				"support.constant",
+				"entity.other.attribute-name",
 			],
 			"settings": {
 				"foreground": "#d49ffc"
