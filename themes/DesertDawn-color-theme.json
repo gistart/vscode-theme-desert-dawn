@@ -3,11 +3,14 @@
 	"type": "dark",
 	"colors": {
         "focusBorder": "#565656",
+        "selection.background": "#f29d99",
 
         "editor.background": "#333333",
         "editor.foreground": "#eeffff",
         "editor.selectionBackground": "#434343",
         "editor.lineHighlightBackground": "#333333",
+        "editor.hoverHighlightBackground": "#94407f",
+        "editor.selectionHighlightBackground": "#94407f75",
         "editorIndentGuide.background": "#222222",
         "editorRuler.foreground": "#222222",
         "editorGutter.addedBackground": "#006d0f",
@@ -17,7 +20,6 @@
         "editorSuggestWidget.background": "#2f2f2f",
         "editorSuggestWidget.highlightForeground": "#e95420",
         "editorOverviewRuler.warningForeground": "#ff0000",
-        "editor.selectionHighlightBackground": "#f7693675",
         "editorLineNumber.activeForeground": "#eeffff",
 
         "editorHint.foreground": "#fd2121",
