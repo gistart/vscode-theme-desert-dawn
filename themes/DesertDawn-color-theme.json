@@ -22,10 +22,10 @@
         "editorOverviewRuler.warningForeground": "#ff0000",
         "editorLineNumber.activeForeground": "#eeffff",
 
-        "editorHint.foreground": "#fd2121",
-        "editorInfo.foreground": "#fd2121",
-        "editorWarning.foreground": "#fd2121",
-        "editorError.foreground": "#fd2121",
+        "editorHint.foreground": "#999999",
+        "editorInfo.foreground": "#00b7e4",
+        "editorWarning.foreground": "#ff942f",
+        "editorError.foreground": "#c70101",
 
         "diffEditor.insertedTextBackground": "#194119",
 
@@ -79,8 +79,13 @@
 				"variable",
                 "variable.other",
                 "variable.parameter",
+                "variable.parameter.function",
 				"constant.other.color",
 				"support.other.variable",
+                //"meta.function.parameters",
+                //"meta.function.parameters.python",
+                "meta.item-access.arguments",
+                "meta.function-call.arguments",
 			],
 			"settings": {
 				"foreground": "#eeffff"
@@ -146,6 +151,8 @@
                 "entity.name.module.js",
 				"variable.import.parameter.js",
 				"variable.other.class.js",
+                "meta.function",
+                "meta.function.python",
 			],
 			"settings": {
 				"foreground": "#98fb97"
@@ -154,7 +161,10 @@
 		{
 			"name": "Function Call",
 			"scope": [
+
                 "meta.function-call",
+                "meta.function-call.generic",
+                "meta.function-call.python",
 				"variable.function",
                 "variable.function.constructor",
                 "meta.class-method.js entity.name.function.js",
@@ -179,21 +189,12 @@
 			}
 		},
 		{
-			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"name": "Inline String, Symbols, Numeric",
 			"scope": [
 				"string",
+				"constant.numeric",
 				"constant.other.symbol",
 				"constant.other.key",
-			],
-			"settings": {
-				"foreground": "#f29d99"
-			}
-		},
-		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
-			"scope": [
-				"constant.language",
-				"constant.numeric",
 			],
 			"settings": {
 				"foreground": "#f29d99"
@@ -216,6 +217,7 @@
 			"scope": [
 				"support.type",
 				"support.constant",
+				"constant.language",
 				"entity.other.attribute-name",
 			],
 			"settings": {
