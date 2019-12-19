@@ -148,6 +148,7 @@
 			"scope": [
                 "support.function",
 				"entity.name.function",
+                "entity.name.function.rust",
                 "entity.name.module.js",
 				"variable.import.parameter.js",
 				"variable.other.class.js",
@@ -169,20 +170,27 @@
                 "variable.function.constructor",
                 "meta.class-method.js entity.name.function.js",
                 "source.js constant.other.object.key.js string.unquoted.label.js",
+                "storage.class.std.rust",
+                "meta.type_params.rust",
+                "entity.name.function.macro.rust",
+                "support.function.builtin.rust",
+                "support.function.core.rust",
+                "support.function.std.rust",
+                "support.function.log.rust",
 			],
 			"settings": {
 				"foreground": "#59fafd"
 			}
 		},
 		{
-			"name": "Regexp, Escape, String formatting",
+			"name": "Emphasis: Regexp, Escape, String formatting",
 			"scope": [
 				"string.regexp",
 				"constant.escape",
 				"constant.character",
                 "constant.character.escape",
 				"string constant.other.placeholder",
-				"string.other.link"
+				"string.other.link",
 			],
 			"settings": {
 				"foreground": "#ff5370"
@@ -213,7 +221,7 @@
 			}
 		},
 		{
-			"name": "Entity Types, Attributes",
+			"name": "Types, core collections",
 			"scope": [
 				"support.type",
 				"support.constant",
