@@ -82,8 +82,6 @@
                 "variable.parameter.function",
 				"constant.other.color",
 				"support.other.variable",
-                //"meta.function.parameters",
-                //"meta.function.parameters.python",
                 "meta.item-access.arguments",
                 "meta.function-call.arguments",
 			],
@@ -150,8 +148,12 @@
 				"entity.name.function",
                 "entity.name.function.rust",
                 "entity.name.module.js",
+                "entity.name.module.ts",
+                "entity.alias.import.go",
 				"variable.import.parameter.js",
+				"variable.import.parameter.ts",
 				"variable.other.class.js",
+				"variable.other.class.ts",
                 "meta.function",
                 "meta.function.python",
 			],
@@ -162,14 +164,17 @@
 		{
 			"name": "Function Call",
 			"scope": [
-
                 "meta.function-call",
                 "meta.function-call.generic",
                 "meta.function-call.python",
+                "meta.function-call.js",
+                "meta.function-call.ts",
 				"variable.function",
                 "variable.function.constructor",
                 "meta.class-method.js entity.name.function.js",
                 "source.js constant.other.object.key.js string.unquoted.label.js",
+                "meta.class-method.ts entity.name.function.js",
+                "source.ts constant.other.object.key.js string.unquoted.label.js",
                 "storage.class.std.rust",
                 "meta.type_params.rust",
                 "entity.name.function.macro.rust",
@@ -203,6 +208,7 @@
 				"constant.numeric",
 				"constant.other.symbol",
 				"constant.other.key",
+                "entity.name.import.go",
 			],
 			"settings": {
 				"foreground": "#f29d99"
@@ -227,6 +233,13 @@
 				"support.constant",
 				"constant.language",
 				"entity.other.attribute-name",
+                "storage.type.boolean.go",
+                "storage.type.byte.go",
+                "storage.type.error.go",
+                "storage.type.numeric.go",
+                "storage.type.rune.go",
+                "storage.type.string.go",
+                "storage.type.uintptr.go"
 			],
 			"settings": {
 				"foreground": "#d49ffc"
